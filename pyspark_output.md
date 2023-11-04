@@ -2,271 +2,255 @@ The operation is load data
 
 The truncated output is: 
 
-|    |   YEAR | GoogleKnowlege_Occupation   | Show   | Group    | Raw_Guest_List   |
-|---:|-------:|:----------------------------|:-------|:---------|:-----------------|
-|  0 |   1999 | actor                       |        | Acting   | Michael J. Fox   |
-|  1 |   1999 | Comedian                    |        | Comedy   | Sandra Bernhard  |
-|  2 |   1999 | television actress          |        | Acting   | Tracey Ullman    |
-|  3 |   1999 | film actress                |        | Acting   | Gillian Anderson |
-|  4 |   1999 | actor                       |        | Acting   | David Alan Grier |
-|  5 |   1999 | actor                       |        | Acting   | William Baldwin  |
-|  6 |   1999 | Singer-lyricist             |        | Musician | Michael Stipe    |
-|  7 |   1999 | model                       |        | Media    | Carmen Electra   |
-|  8 |   1999 | actor                       |        | Acting   | Matthew Lillard  |
-|  9 |   1999 | stand-up comedian           |        | Comedy   | David Cross      |
+|    |   sepal_length |   sepal_width |   petal_length |   petal_width | species   |
+|---:|---------------:|--------------:|---------------:|--------------:|:----------|
+|  0 |            5.1 |           3.5 |            1.4 |           0.2 | setosa    |
+|  1 |            4.9 |           3   |            1.4 |           0.2 | setosa    |
+|  2 |            4.7 |           3.2 |            1.3 |           0.2 | setosa    |
+|  3 |            4.6 |           3.1 |            1.5 |           0.2 | setosa    |
+|  4 |            5   |           3.6 |            1.4 |           0.2 | setosa    |
+|  5 |            5.4 |           3.9 |            1.7 |           0.4 | setosa    |
+|  6 |            4.6 |           3.4 |            1.4 |           0.3 | setosa    |
+|  7 |            5   |           3.4 |            1.5 |           0.2 | setosa    |
+|  8 |            4.4 |           2.9 |            1.4 |           0.2 | setosa    |
+|  9 |            4.9 |           3.1 |            1.5 |           0.1 | setosa    |
 
 The operation is load data
 
 The truncated output is: 
 
-|    |   YEAR | GoogleKnowlege_Occupation   | Show   | Group    | Raw_Guest_List   |
-|---:|-------:|:----------------------------|:-------|:---------|:-----------------|
-|  0 |   1999 | actor                       |        | Acting   | Michael J. Fox   |
-|  1 |   1999 | Comedian                    |        | Comedy   | Sandra Bernhard  |
-|  2 |   1999 | television actress          |        | Acting   | Tracey Ullman    |
-|  3 |   1999 | film actress                |        | Acting   | Gillian Anderson |
-|  4 |   1999 | actor                       |        | Acting   | David Alan Grier |
-|  5 |   1999 | actor                       |        | Acting   | William Baldwin  |
-|  6 |   1999 | Singer-lyricist             |        | Musician | Michael Stipe    |
-|  7 |   1999 | model                       |        | Media    | Carmen Electra   |
-|  8 |   1999 | actor                       |        | Acting   | Matthew Lillard  |
-|  9 |   1999 | stand-up comedian           |        | Comedy   | David Cross      |
+|    |   sepal_length |   sepal_width |   petal_length |   petal_width | species   |
+|---:|---------------:|--------------:|---------------:|--------------:|:----------|
+|  0 |            5.1 |           3.5 |            1.4 |           0.2 | setosa    |
+|  1 |            4.9 |           3   |            1.4 |           0.2 | setosa    |
+|  2 |            4.7 |           3.2 |            1.3 |           0.2 | setosa    |
+|  3 |            4.6 |           3.1 |            1.5 |           0.2 | setosa    |
+|  4 |            5   |           3.6 |            1.4 |           0.2 | setosa    |
+|  5 |            5.4 |           3.9 |            1.7 |           0.4 | setosa    |
+|  6 |            4.6 |           3.4 |            1.4 |           0.3 | setosa    |
+|  7 |            5   |           3.4 |            1.5 |           0.2 | setosa    |
+|  8 |            4.4 |           2.9 |            1.4 |           0.2 | setosa    |
+|  9 |            4.9 |           3.1 |            1.5 |           0.1 | setosa    |
 
 The operation is describe data
 
 The truncated output is: 
 
-|    | summary   |       YEAR | GoogleKnowlege_Occupation   | Group    | Raw_Guest_List                |
-|---:|:----------|-----------:|:----------------------------|:---------|:------------------------------|
-|  0 | count     | 2693       | 2693                        | 2693     | 2693                          |
-|  1 | mean      | 2006.82    | 0.0                         |          |                               |
-|  2 | stddev    |    4.82818 | 0.0                         |          |                               |
-|  3 | min       | 1999       | -                           | Academic | "Dwayne The Rock"" Johnson""" |
-|  4 | max       | 2015       | writer                      | media    | none                          |
+|    | summary   |   sepal_length |   sepal_width |   petal_length |   petal_width | species   |
+|---:|:----------|---------------:|--------------:|---------------:|--------------:|:----------|
+|  0 | count     |     150        |    150        |       150      |    150        | 150       |
+|  1 | mean      |       5.84333  |      3.05733  |         3.758  |      1.19933  |           |
+|  2 | stddev    |       0.828066 |      0.435866 |         1.7653 |      0.762238 |           |
+|  3 | min       |       4.3      |      2        |         1      |      0.1      | setosa    |
+|  4 | max       |       7.9      |      4.4      |         6.9    |      2.5      | virginica |
 
 The operation is load data
 
 The truncated output is: 
 
-|    |   YEAR | GoogleKnowlege_Occupation   | Show   | Group    | Raw_Guest_List   |
-|---:|-------:|:----------------------------|:-------|:---------|:-----------------|
-|  0 |   1999 | actor                       |        | Acting   | Michael J. Fox   |
-|  1 |   1999 | Comedian                    |        | Comedy   | Sandra Bernhard  |
-|  2 |   1999 | television actress          |        | Acting   | Tracey Ullman    |
-|  3 |   1999 | film actress                |        | Acting   | Gillian Anderson |
-|  4 |   1999 | actor                       |        | Acting   | David Alan Grier |
-|  5 |   1999 | actor                       |        | Acting   | William Baldwin  |
-|  6 |   1999 | Singer-lyricist             |        | Musician | Michael Stipe    |
-|  7 |   1999 | model                       |        | Media    | Carmen Electra   |
-|  8 |   1999 | actor                       |        | Acting   | Matthew Lillard  |
-|  9 |   1999 | stand-up comedian           |        | Comedy   | David Cross      |
+|    |   sepal_length |   sepal_width |   petal_length |   petal_width | species   |
+|---:|---------------:|--------------:|---------------:|--------------:|:----------|
+|  0 |            5.1 |           3.5 |            1.4 |           0.2 | setosa    |
+|  1 |            4.9 |           3   |            1.4 |           0.2 | setosa    |
+|  2 |            4.7 |           3.2 |            1.3 |           0.2 | setosa    |
+|  3 |            4.6 |           3.1 |            1.5 |           0.2 | setosa    |
+|  4 |            5   |           3.6 |            1.4 |           0.2 | setosa    |
+|  5 |            5.4 |           3.9 |            1.7 |           0.4 | setosa    |
+|  6 |            4.6 |           3.4 |            1.4 |           0.3 | setosa    |
+|  7 |            5   |           3.4 |            1.5 |           0.2 | setosa    |
+|  8 |            4.4 |           2.9 |            1.4 |           0.2 | setosa    |
+|  9 |            4.9 |           3.1 |            1.5 |           0.1 | setosa    |
 
 The operation is query data
 
-The query is SELECT * FROM DailyShowGuests WHERE YEAR = 1999
+The query is SELECT * FROM iris WHERE sepal_length > 3
 
 The truncated output is: 
 
-|     |   YEAR | GoogleKnowlege_Occupation       | Show   | Group      | Raw_Guest_List                                 |
-|----:|-------:|:--------------------------------|:-------|:-----------|:-----------------------------------------------|
-|   0 |   1999 | actor                           |        | Acting     | Michael J. Fox                                 |
-|   1 |   1999 | Comedian                        |        | Comedy     | Sandra Bernhard                                |
-|   2 |   1999 | television actress              |        | Acting     | Tracey Ullman                                  |
-|   3 |   1999 | film actress                    |        | Acting     | Gillian Anderson                               |
-|   4 |   1999 | actor                           |        | Acting     | David Alan Grier                               |
-|   5 |   1999 | actor                           |        | Acting     | William Baldwin                                |
-|   6 |   1999 | Singer-lyricist                 |        | Musician   | Michael Stipe                                  |
-|   7 |   1999 | model                           |        | Media      | Carmen Electra                                 |
-|   8 |   1999 | actor                           |        | Acting     | Matthew Lillard                                |
-|   9 |   1999 | stand-up comedian               |        | Comedy     | David Cross                                    |
-|  10 |   1999 | actress                         |        | Acting     | Yasmine Bleeth                                 |
-|  11 |   1999 | actor                           |        | Acting     | D. L. Hughley                                  |
-|  12 |   1999 | television actress              |        | Acting     | Rebecca Gayheart                               |
-|  13 |   1999 | Comedian                        |        | Comedy     | Steven Wright                                  |
-|  14 |   1999 | actress                         |        | Acting     | Amy Brenneman                                  |
-|  15 |   1999 | actress                         |        | Acting     | Melissa Gilbert                                |
-|  16 |   1999 | actress                         |        | Acting     | Cathy Moriarty                                 |
-|  17 |   1999 | comedian                        |        | Comedy     | Louie Anderson                                 |
-|  18 |   1999 | actress                         |        | Acting     | Sarah Michelle Gellar                          |
-|  19 |   1999 | Singer-songwriter               |        | Musician   | Melanie C                                      |
-|  20 |   1999 | actor                           |        | Acting     | Greg Proops                                    |
-|  21 |   1999 | television personality          |        | Media      | Maury Povich                                   |
-|  22 |   1999 | actress                         |        | Acting     | Brooke Shields                                 |
-|  23 |   1999 | Comic                           |        | Comedy     | Molly Shannon                                  |
-|  24 |   1999 | actor                           |        | Acting     | Chris O'Donnell                                |
-|  25 |   1999 | actress                         |        | Acting     | Christina Ricci                                |
-|  26 |   1999 | Singer-songwriter               |        | Musician   | Tori Amos                                      |
-|  27 |   1999 | actress                         |        | Acting     | Yasmine Bleeth                                 |
-|  28 |   1999 | comedian                        |        | Comedy     | Bill Maher                                     |
-|  29 |   1999 | actress                         |        | Acting     | Jennifer Love Hewitt                           |
-|  30 |   1999 | rock band                       |        | Musician   | Goo Goo Dolls                                  |
-|  31 |   1999 | musician                        |        | Musician   | Dave Grohl                                     |
-|  32 |   1999 | Film actor                      |        | Acting     | Stephen Rea                                    |
-|  33 |   1999 | Model                           |        | Media      | Roshumba Williams                              |
-|  34 |   1999 | television actress              |        | Acting     | Kellie Martin                                  |
-|  35 |   1999 | actress                         |        | Acting     | Kathy Griffin                                  |
-|  36 |   1999 | actress                         |        | Acting     | Laura San Giacomo                              |
-|  37 |   1999 | journalist                      |        | Media      | Joan Lunden                                    |
-|  38 |   1999 | actress                         |        | Acting     | Shannen Doherty                                |
-|  39 |   1999 | NA                              |        | NA         | Greatest Millennium Special                    |
-|  40 |   1999 | comedian                        |        | Comedy     | George Carlin                                  |
-|  41 |   1999 | actor                           |        | Acting     | Michael Boatman                                |
-|  42 |   1999 | actor                           |        | Acting     | David Boreanaz                                 |
-|  43 |   1999 | singer-songwriter               |        | Musician   | Jewel                                          |
-|  44 |   1999 | actor                           |        | Acting     | Paul Rudd                                      |
-|  45 |   1999 | us senator                      |        | Politician | Senator Bob Dole, part 1                       |
-|  46 |   1999 | us senator                      |        | Politician | Senator Bob Dole, part 2                       |
-|  47 |   1999 | actor                           |        | Acting     | Rob Schneider                                  |
-|  48 |   1999 | comedian                        |        | Comedy     | George Carlin                                  |
-|  49 |   1999 | actress                         |        | Acting     | Pamela Anderson, Natalie Raitano, Molly Culver |
-|  50 |   1999 | actress                         |        | Acting     | Pamela Anderson, Natalie Raitano, Molly Culver |
-|  51 |   1999 | actress                         |        | Acting     | Pamela Anderson, Natalie Raitano, Molly Culver |
-|  52 |   1999 | film actor                      |        | Acting     | Daniel Stern                                   |
-|  53 |   1999 | actress                         |        | Acting     | Melina Kanakaredes                             |
-|  54 |   1999 | comedian                        |        | Comedy     | Ed McMahon                                     |
-|  55 |   1999 | actor                           |        | Acting     | Mike Judge                                     |
-|  56 |   1999 | actor                           |        | Acting     | Dave Foley                                     |
-|  57 |   1999 | television actress              |        | Acting     | Kellie Martin                                  |
-|  58 |   1999 | actor                           |        | Acting     | Jerry O'Connell                                |
-|  59 |   1999 | actress                         |        | Acting     | Melissa Gilbert                                |
-|  60 |   1999 | actor                           |        | Acting     | Brendan Fraser                                 |
-|  61 |   1999 | pianist                         |        | Musician   | John Tesh                                      |
-|  62 |   1999 | Vocalist                        |        | Musician   | Sammy Hagar                                    |
-|  63 |   1999 | rock band                       |        | Musician   | Hootie & the Blowfish, Billy Crystal           |
-|  64 |   1999 | actor                           |        | Acting     | Hootie & the Blowfish, Billy Crystal           |
-|  65 |   1999 | Film actor                      |        | Acting     | Peter Krause                                   |
-|  66 |   1999 | musician                        |        | Musician   | Chris Isaak                                    |
-|  67 |   1999 | writer                          |        | Media      | Frank DeCaro's Oscar Special, John Larroquette |
-|  68 |   1999 | actor                           |        | Acting     | Frank DeCaro's Oscar Special, John Larroquette |
-|  69 |   1999 | actor                           |        | Acting     | Joseph Gordon-Levitt                           |
-|  70 |   1999 | actor                           |        | Acting     | Eric McCormack                                 |
-|  71 |   1999 | actress                         |        | Acting     | Jennifer Grey                                  |
-|  72 |   1999 | Stand-up comedian               |        | Comedy     | Norm Macdonald                                 |
-|  73 |   1999 | actress                         |        | Acting     | Sandra Bullock                                 |
-|  74 |   1999 | actress                         |        | Acting     | Janine Turner                                  |
-|  75 |   1999 | Film director                   |        | Media      | Ron Howard                                     |
-|  76 |   1999 | actress                         |        | Acting     | Jeri Ryan                                      |
-|  77 |   1999 | actor                           |        | Acting     | Omar Epps                                      |
-|  78 |   1999 | actress                         |        | Acting     | Diane Lane                                     |
-|  79 |   1999 | actor                           |        | Acting     | Ryan Phillippe                                 |
-|  80 |   1999 | actor                           |        | Acting     | Ian McKellen                                   |
-|  81 |   1999 | actor                           |        | Acting     | Jon Voight                                     |
-|  82 |   1999 | actor                           |        | Acting     | Stephen Baldwin                                |
-|  83 |   1999 | actor                           |        | Acting     | Ernie Hudson                                   |
-|  84 |   1999 | film actor                      |        | Acting     | Josh Charles                                   |
-|  85 |   1999 | actor                           |        | Acting     | Jackie Chan                                    |
-|  86 |   1999 | actress                         |        | Acting     | Marlee Matlin                                  |
-|  87 |   1999 | actress                         |        | Acting     | Sharon Lawrence                                |
-|  88 |   1999 | actor                           |        | Acting     | Rob Estes                                      |
-|  89 |   1999 | actress                         |        | Acting     | Angelina Jolie                                 |
-|  90 |   1999 | stand-up comedian               |        | Comedy     | David Spade                                    |
-|  91 |   1999 | actor                           |        | Acting     | Seth Green                                     |
-|  92 |   1999 | actress                         |        | Acting     | Sheryl Lee Ralph                               |
-|  93 |   1999 | singer                          |        | Musician   | Chris Robinson                                 |
-|  94 |   1999 | comedian                        |        | Comedy     | Joy Behar                                      |
-|  95 |   1999 | actor                           |        | Acting     | Thomas Gibson                                  |
-|  96 |   1999 | actress                         |        | Acting     | Paula Cale                                     |
-|  97 |   1999 | actor                           |        | Acting     | Ted Danson                                     |
-|  98 |   1999 | actor                           |        | Acting     | Esai Morales                                   |
-|  99 |   1999 | actress                         |        | Acting     | Jane Seymour                                   |
-| 100 |   1999 | Comedian                        |        | Comedy     | Robert Schimmel                                |
-| 101 |   1999 | actress                         |        | Acting     | Camryn Manheim                                 |
-| 102 |   1999 | actor                           |        | Acting     | Ray Romano                                     |
-| 103 |   1999 | television actress              |        | Acting     | Patricia Richardson                            |
-| 104 |   1999 | actress                         |        | Acting     | Suzanne Somers                                 |
-| 105 |   1999 | actress                         |        | Acting     | Natalie Portman                                |
-| 106 |   1999 | actor                           |        | Acting     | Jamie Foxx                                     |
-| 107 |   1999 | actor                           |        | Acting     | Timothy Hutton                                 |
-| 108 |   1999 | actor                           |        | Acting     | Mike Myers                                     |
-| 109 |   1999 | actor                           |        | Acting     | Rob Lowe                                       |
-| 110 |   1999 | actor                           |        | Acting     | Mike Myers                                     |
-| 111 |   1999 | actress                         |        | Acting     | Heather Graham                                 |
-| 112 |   1999 | film actress                    |        | Acting     | Felicity Huffman                               |
-| 113 |   1999 | television host                 |        | Media      | Jimmy Kimmel                                   |
-| 114 |   1999 | actor                           |        | Acting     | Adam Sandler                                   |
-| 115 |   1999 | Stand-up comedian               |        | Comedy     | Richard Belzer                                 |
-| 116 |   1999 | Comedian                        |        | Comedy     | Margaret Cho                                   |
-| 117 |   1999 | actor                           |        | Acting     | Scott Wolf                                     |
-| 118 |   1999 | actress                         |        | Acting     | Roseanne Barr                                  |
-| 119 |   1999 | singer                          |        | Musician   | Harry Connick Jr.                              |
-| 120 |   1999 | comedian                        |        | Comedy     | Caroline Rhea                                  |
-| 121 |   1999 | actor                           |        | Acting     | Damon Wayans                                   |
-| 122 |   1999 | actor                           |        | Acting     | Rob Schneider                                  |
-| 123 |   1999 | televison actor                 |        | Acting     | Adam Arkin                                     |
-| 124 |   1999 | muppet                          |        | Media      | Miss Piggy                                     |
-| 125 |   1999 | actor                           |        | Acting     | John Leguizamo                                 |
-| 126 |   1999 | Stand-up comedian               |        | Comedy     | Robert Klein                                   |
-| 127 |   1999 | actress                         |        | Acting     | Christa Miller                                 |
-| 128 |   1999 | stand-up comedian               |        | Comedy     | David Brenner                                  |
-| 129 |   1999 | NA                              |        | NA         | Third Anniversary Special                      |
-| 130 |   1999 | actress                         |        | Acting     | Joely Fisher                                   |
-| 131 |   1999 | singer                          |        | Musician   | Donny Osmond                                   |
-| 132 |   1999 | actress                         |        | Acting     | Wendie Malick                                  |
-| 133 |   1999 | Vocalist                        |        | Musician   | Vince Neil                                     |
-| 134 |   1999 | film actress                    |        | Acting     | Janeane Garofalo                               |
-| 135 |   1999 | comedian                        |        | Comedy     | Dom Irrera                                     |
-| 136 |   1999 | actor                           |        | Acting     | Pierce Brosnan                                 |
-| 137 |   1999 | director                        |        | Media      | Eduardo Sanchez and Daniel Myrick              |
-| 138 |   1999 | film director                   |        | Media      | Eduardo Sanchez and Daniel Myrick              |
-| 139 |   1999 | american television personality |        | Media      | Carson Daly                                    |
-| 140 |   1999 | actress                         |        | Acting     | Molly Ringwald                                 |
-| 141 |   1999 | actress                         |        | Acting     | Sarah Jessica Parker                           |
-| 142 |   1999 | actor                           |        | Acting     | French Stewart                                 |
-| 143 |   1999 | actress                         |        | Acting     | Bebe Neuwirth                                  |
-| 144 |   1999 | actress                         |        | Acting     | Cheryl Ladd                                    |
-| 145 |   1999 | rapper                          |        | Musician   | LL Cool J                                      |
-| 146 |   1999 | singer-songwriter               |        | Musician   | Dwight Yoakam                                  |
-| 147 |   1999 | actress                         |        | Acting     | Nia Long                                       |
-| 148 |   1999 | actor                           |        | Acting     | Garry Marshall                                 |
-| 149 |   1999 | NA                              |        | NA         | The Daily Show Summer Spectacular              |
-| 150 |   1999 | actor                           |        | Acting     | Denis Leary                                    |
-| 151 |   1999 | actor                           |        | Acting     | Jeffrey Tambor                                 |
-| 152 |   1999 | actor                           |        | Acting     | Dave Foley                                     |
-| 153 |   1999 | comedian                        |        | Comedy     | Elayne Boosler                                 |
-| 154 |   1999 | actor                           |        | Acting     | Tom Green                                      |
-| 155 |   1999 | actor                           |        | Acting     | Jason Priestley                                |
-| 156 |   1999 | stand-up comedian               |        | Comedy     | David Cross                                    |
-| 157 |   1999 | actor                           |        | Acting     | Andy Richter                                   |
-| 158 |   1999 | singer                          |        | Musician   | Donny Osmond Marie Osmond                      |
-| 159 |   1999 | comedian                        |        | Comedy     | Dave Chappelle                                 |
-| 160 |   1999 | actor                           |        | Acting     | Steve Zahn                                     |
-| 161 |   1999 | Stand-up comedian               |        | Comedy     | Norm Macdonald                                 |
-| 162 |   1999 | actress                         |        | Acting     | Melissa Joan Hart                              |
-| 163 |   1999 | Comedian                        |        | Comedy     | Richard Lewis                                  |
-| 164 |   1999 | actor                           |        | Acting     | Bruce McCulloch and Mark McKinney              |
-| 165 |   1999 | comedian                        |        | Comedy     | Bruce McCulloch and Mark McKinney              |
+|     |   sepal_length |   sepal_width |   petal_length |   petal_width | species    |
+|----:|---------------:|--------------:|---------------:|--------------:|:-----------|
+|   0 |            5.1 |           3.5 |            1.4 |           0.2 | setosa     |
+|   1 |            4.9 |           3   |            1.4 |           0.2 | setosa     |
+|   2 |            4.7 |           3.2 |            1.3 |           0.2 | setosa     |
+|   3 |            4.6 |           3.1 |            1.5 |           0.2 | setosa     |
+|   4 |            5   |           3.6 |            1.4 |           0.2 | setosa     |
+|   5 |            5.4 |           3.9 |            1.7 |           0.4 | setosa     |
+|   6 |            4.6 |           3.4 |            1.4 |           0.3 | setosa     |
+|   7 |            5   |           3.4 |            1.5 |           0.2 | setosa     |
+|   8 |            4.4 |           2.9 |            1.4 |           0.2 | setosa     |
+|   9 |            4.9 |           3.1 |            1.5 |           0.1 | setosa     |
+|  10 |            5.4 |           3.7 |            1.5 |           0.2 | setosa     |
+|  11 |            4.8 |           3.4 |            1.6 |           0.2 | setosa     |
+|  12 |            4.8 |           3   |            1.4 |           0.1 | setosa     |
+|  13 |            4.3 |           3   |            1.1 |           0.1 | setosa     |
+|  14 |            5.8 |           4   |            1.2 |           0.2 | setosa     |
+|  15 |            5.7 |           4.4 |            1.5 |           0.4 | setosa     |
+|  16 |            5.4 |           3.9 |            1.3 |           0.4 | setosa     |
+|  17 |            5.1 |           3.5 |            1.4 |           0.3 | setosa     |
+|  18 |            5.7 |           3.8 |            1.7 |           0.3 | setosa     |
+|  19 |            5.1 |           3.8 |            1.5 |           0.3 | setosa     |
+|  20 |            5.4 |           3.4 |            1.7 |           0.2 | setosa     |
+|  21 |            5.1 |           3.7 |            1.5 |           0.4 | setosa     |
+|  22 |            4.6 |           3.6 |            1   |           0.2 | setosa     |
+|  23 |            5.1 |           3.3 |            1.7 |           0.5 | setosa     |
+|  24 |            4.8 |           3.4 |            1.9 |           0.2 | setosa     |
+|  25 |            5   |           3   |            1.6 |           0.2 | setosa     |
+|  26 |            5   |           3.4 |            1.6 |           0.4 | setosa     |
+|  27 |            5.2 |           3.5 |            1.5 |           0.2 | setosa     |
+|  28 |            5.2 |           3.4 |            1.4 |           0.2 | setosa     |
+|  29 |            4.7 |           3.2 |            1.6 |           0.2 | setosa     |
+|  30 |            4.8 |           3.1 |            1.6 |           0.2 | setosa     |
+|  31 |            5.4 |           3.4 |            1.5 |           0.4 | setosa     |
+|  32 |            5.2 |           4.1 |            1.5 |           0.1 | setosa     |
+|  33 |            5.5 |           4.2 |            1.4 |           0.2 | setosa     |
+|  34 |            4.9 |           3.1 |            1.5 |           0.2 | setosa     |
+|  35 |            5   |           3.2 |            1.2 |           0.2 | setosa     |
+|  36 |            5.5 |           3.5 |            1.3 |           0.2 | setosa     |
+|  37 |            4.9 |           3.6 |            1.4 |           0.1 | setosa     |
+|  38 |            4.4 |           3   |            1.3 |           0.2 | setosa     |
+|  39 |            5.1 |           3.4 |            1.5 |           0.2 | setosa     |
+|  40 |            5   |           3.5 |            1.3 |           0.3 | setosa     |
+|  41 |            4.5 |           2.3 |            1.3 |           0.3 | setosa     |
+|  42 |            4.4 |           3.2 |            1.3 |           0.2 | setosa     |
+|  43 |            5   |           3.5 |            1.6 |           0.6 | setosa     |
+|  44 |            5.1 |           3.8 |            1.9 |           0.4 | setosa     |
+|  45 |            4.8 |           3   |            1.4 |           0.3 | setosa     |
+|  46 |            5.1 |           3.8 |            1.6 |           0.2 | setosa     |
+|  47 |            4.6 |           3.2 |            1.4 |           0.2 | setosa     |
+|  48 |            5.3 |           3.7 |            1.5 |           0.2 | setosa     |
+|  49 |            5   |           3.3 |            1.4 |           0.2 | setosa     |
+|  50 |            7   |           3.2 |            4.7 |           1.4 | versicolor |
+|  51 |            6.4 |           3.2 |            4.5 |           1.5 | versicolor |
+|  52 |            6.9 |           3.1 |            4.9 |           1.5 | versicolor |
+|  53 |            5.5 |           2.3 |            4   |           1.3 | versicolor |
+|  54 |            6.5 |           2.8 |            4.6 |           1.5 | versicolor |
+|  55 |            5.7 |           2.8 |            4.5 |           1.3 | versicolor |
+|  56 |            6.3 |           3.3 |            4.7 |           1.6 | versicolor |
+|  57 |            4.9 |           2.4 |            3.3 |           1   | versicolor |
+|  58 |            6.6 |           2.9 |            4.6 |           1.3 | versicolor |
+|  59 |            5.2 |           2.7 |            3.9 |           1.4 | versicolor |
+|  60 |            5   |           2   |            3.5 |           1   | versicolor |
+|  61 |            5.9 |           3   |            4.2 |           1.5 | versicolor |
+|  62 |            6   |           2.2 |            4   |           1   | versicolor |
+|  63 |            6.1 |           2.9 |            4.7 |           1.4 | versicolor |
+|  64 |            5.6 |           2.9 |            3.6 |           1.3 | versicolor |
+|  65 |            6.7 |           3.1 |            4.4 |           1.4 | versicolor |
+|  66 |            5.6 |           3   |            4.5 |           1.5 | versicolor |
+|  67 |            5.8 |           2.7 |            4.1 |           1   | versicolor |
+|  68 |            6.2 |           2.2 |            4.5 |           1.5 | versicolor |
+|  69 |            5.6 |           2.5 |            3.9 |           1.1 | versicolor |
+|  70 |            5.9 |           3.2 |            4.8 |           1.8 | versicolor |
+|  71 |            6.1 |           2.8 |            4   |           1.3 | versicolor |
+|  72 |            6.3 |           2.5 |            4.9 |           1.5 | versicolor |
+|  73 |            6.1 |           2.8 |            4.7 |           1.2 | versicolor |
+|  74 |            6.4 |           2.9 |            4.3 |           1.3 | versicolor |
+|  75 |            6.6 |           3   |            4.4 |           1.4 | versicolor |
+|  76 |            6.8 |           2.8 |            4.8 |           1.4 | versicolor |
+|  77 |            6.7 |           3   |            5   |           1.7 | versicolor |
+|  78 |            6   |           2.9 |            4.5 |           1.5 | versicolor |
+|  79 |            5.7 |           2.6 |            3.5 |           1   | versicolor |
+|  80 |            5.5 |           2.4 |            3.8 |           1.1 | versicolor |
+|  81 |            5.5 |           2.4 |            3.7 |           1   | versicolor |
+|  82 |            5.8 |           2.7 |            3.9 |           1.2 | versicolor |
+|  83 |            6   |           2.7 |            5.1 |           1.6 | versicolor |
+|  84 |            5.4 |           3   |            4.5 |           1.5 | versicolor |
+|  85 |            6   |           3.4 |            4.5 |           1.6 | versicolor |
+|  86 |            6.7 |           3.1 |            4.7 |           1.5 | versicolor |
+|  87 |            6.3 |           2.3 |            4.4 |           1.3 | versicolor |
+|  88 |            5.6 |           3   |            4.1 |           1.3 | versicolor |
+|  89 |            5.5 |           2.5 |            4   |           1.3 | versicolor |
+|  90 |            5.5 |           2.6 |            4.4 |           1.2 | versicolor |
+|  91 |            6.1 |           3   |            4.6 |           1.4 | versicolor |
+|  92 |            5.8 |           2.6 |            4   |           1.2 | versicolor |
+|  93 |            5   |           2.3 |            3.3 |           1   | versicolor |
+|  94 |            5.6 |           2.7 |            4.2 |           1.3 | versicolor |
+|  95 |            5.7 |           3   |            4.2 |           1.2 | versicolor |
+|  96 |            5.7 |           2.9 |            4.2 |           1.3 | versicolor |
+|  97 |            6.2 |           2.9 |            4.3 |           1.3 | versicolor |
+|  98 |            5.1 |           2.5 |            3   |           1.1 | versicolor |
+|  99 |            5.7 |           2.8 |            4.1 |           1.3 | versicolor |
+| 100 |            6.3 |           3.3 |            6   |           2.5 | virginica  |
+| 101 |            5.8 |           2.7 |            5.1 |           1.9 | virginica  |
+| 102 |            7.1 |           3   |            5.9 |           2.1 | virginica  |
+| 103 |            6.3 |           2.9 |            5.6 |           1.8 | virginica  |
+| 104 |            6.5 |           3   |            5.8 |           2.2 | virginica  |
+| 105 |            7.6 |           3   |            6.6 |           2.1 | virginica  |
+| 106 |            4.9 |           2.5 |            4.5 |           1.7 | virginica  |
+| 107 |            7.3 |           2.9 |            6.3 |           1.8 | virginica  |
+| 108 |            6.7 |           2.5 |            5.8 |           1.8 | virginica  |
+| 109 |            7.2 |           3.6 |            6.1 |           2.5 | virginica  |
+| 110 |            6.5 |           3.2 |            5.1 |           2   | virginica  |
+| 111 |            6.4 |           2.7 |            5.3 |           1.9 | virginica  |
+| 112 |            6.8 |           3   |            5.5 |           2.1 | virginica  |
+| 113 |            5.7 |           2.5 |            5   |           2   | virginica  |
+| 114 |            5.8 |           2.8 |            5.1 |           2.4 | virginica  |
+| 115 |            6.4 |           3.2 |            5.3 |           2.3 | virginica  |
+| 116 |            6.5 |           3   |            5.5 |           1.8 | virginica  |
+| 117 |            7.7 |           3.8 |            6.7 |           2.2 | virginica  |
+| 118 |            7.7 |           2.6 |            6.9 |           2.3 | virginica  |
+| 119 |            6   |           2.2 |            5   |           1.5 | virginica  |
+| 120 |            6.9 |           3.2 |            5.7 |           2.3 | virginica  |
+| 121 |            5.6 |           2.8 |            4.9 |           2   | virginica  |
+| 122 |            7.7 |           2.8 |            6.7 |           2   | virginica  |
+| 123 |            6.3 |           2.7 |            4.9 |           1.8 | virginica  |
+| 124 |            6.7 |           3.3 |            5.7 |           2.1 | virginica  |
+| 125 |            7.2 |           3.2 |            6   |           1.8 | virginica  |
+| 126 |            6.2 |           2.8 |            4.8 |           1.8 | virginica  |
+| 127 |            6.1 |           3   |            4.9 |           1.8 | virginica  |
+| 128 |            6.4 |           2.8 |            5.6 |           2.1 | virginica  |
+| 129 |            7.2 |           3   |            5.8 |           1.6 | virginica  |
+| 130 |            7.4 |           2.8 |            6.1 |           1.9 | virginica  |
+| 131 |            7.9 |           3.8 |            6.4 |           2   | virginica  |
+| 132 |            6.4 |           2.8 |            5.6 |           2.2 | virginica  |
+| 133 |            6.3 |           2.8 |            5.1 |           1.5 | virginica  |
+| 134 |            6.1 |           2.6 |            5.6 |           1.4 | virginica  |
+| 135 |            7.7 |           3   |            6.1 |           2.3 | virginica  |
+| 136 |            6.3 |           3.4 |            5.6 |           2.4 | virginica  |
+| 137 |            6.4 |           3.1 |            5.5 |           1.8 | virginica  |
+| 138 |            6   |           3   |            4.8 |           1.8 | virginica  |
+| 139 |            6.9 |           3.1 |            5.4 |           2.1 | virginica  |
+| 140 |            6.7 |           3.1 |            5.6 |           2.4 | virginica  |
+| 141 |            6.9 |           3.1 |            5.1 |           2.3 | virginica  |
+| 142 |            5.8 |           2.7 |            5.1 |           1.9 | virginica  |
+| 143 |            6.8 |           3.2 |            5.9 |           2.3 | virginica  |
+| 144 |            6.7 |           3.3 |            5.7 |           2.5 | virginica  |
+| 145 |            6.7 |           3   |            5.2 |           2.3 | virginica  |
+| 146 |            6.3 |           2.5 |            5   |           1.9 | virginica  |
+| 147 |            6.5 |           3   |            5.2 |           2   | virginica  |
+| 148 |            6.2 |           3.4 |            5.4 |           2.3 | virginica  |
+| 149 |            5.9 |           3   |            5.1 |           1.8 | virginica  |
 
 The operation is load data
 
 The truncated output is: 
 
-|    |   YEAR | GoogleKnowlege_Occupation   | Show   | Group    | Raw_Guest_List   |
-|---:|-------:|:----------------------------|:-------|:---------|:-----------------|
-|  0 |   1999 | actor                       |        | Acting   | Michael J. Fox   |
-|  1 |   1999 | Comedian                    |        | Comedy   | Sandra Bernhard  |
-|  2 |   1999 | television actress          |        | Acting   | Tracey Ullman    |
-|  3 |   1999 | film actress                |        | Acting   | Gillian Anderson |
-|  4 |   1999 | actor                       |        | Acting   | David Alan Grier |
-|  5 |   1999 | actor                       |        | Acting   | William Baldwin  |
-|  6 |   1999 | Singer-lyricist             |        | Musician | Michael Stipe    |
-|  7 |   1999 | model                       |        | Media    | Carmen Electra   |
-|  8 |   1999 | actor                       |        | Acting   | Matthew Lillard  |
-|  9 |   1999 | stand-up comedian           |        | Comedy   | David Cross      |
+|    |   sepal_length |   sepal_width |   petal_length |   petal_width | species   |
+|---:|---------------:|--------------:|---------------:|--------------:|:----------|
+|  0 |            5.1 |           3.5 |            1.4 |           0.2 | setosa    |
+|  1 |            4.9 |           3   |            1.4 |           0.2 | setosa    |
+|  2 |            4.7 |           3.2 |            1.3 |           0.2 | setosa    |
+|  3 |            4.6 |           3.1 |            1.5 |           0.2 | setosa    |
+|  4 |            5   |           3.6 |            1.4 |           0.2 | setosa    |
+|  5 |            5.4 |           3.9 |            1.7 |           0.4 | setosa    |
+|  6 |            4.6 |           3.4 |            1.4 |           0.3 | setosa    |
+|  7 |            5   |           3.4 |            1.5 |           0.2 | setosa    |
+|  8 |            4.4 |           2.9 |            1.4 |           0.2 | setosa    |
+|  9 |            4.9 |           3.1 |            1.5 |           0.1 | setosa    |
 
 The operation is transform data
 
 The truncated output is: 
 
-|    |   YEAR | GoogleKnowlege_Occupation   | Show   | Group    | Raw_Guest_List   | Occupation_Category   |
-|---:|-------:|:----------------------------|:-------|:---------|:-----------------|:----------------------|
-|  0 |   1999 | actor                       |        | Acting   | Michael J. Fox   | Acting                |
-|  1 |   1999 | Comedian                    |        | Comedy   | Sandra Bernhard  | Other                 |
-|  2 |   1999 | television actress          |        | Acting   | Tracey Ullman    | Other                 |
-|  3 |   1999 | film actress                |        | Acting   | Gillian Anderson | Other                 |
-|  4 |   1999 | actor                       |        | Acting   | David Alan Grier | Acting                |
-|  5 |   1999 | actor                       |        | Acting   | William Baldwin  | Acting                |
-|  6 |   1999 | Singer-lyricist             |        | Musician | Michael Stipe    | Other                 |
-|  7 |   1999 | model                       |        | Media    | Carmen Electra   | Other                 |
-|  8 |   1999 | actor                       |        | Acting   | Matthew Lillard  | Acting                |
-|  9 |   1999 | stand-up comedian           |        | Comedy   | David Cross      | Other                 |
+|    |   sepal_length |   sepal_width |   petal_length |   petal_width | species   | species_bool   |
+|---:|---------------:|--------------:|---------------:|--------------:|:----------|:---------------|
+|  0 |            5.1 |           3.5 |            1.4 |           0.2 | setosa    | setosa         |
+|  1 |            4.9 |           3   |            1.4 |           0.2 | setosa    | setosa         |
+|  2 |            4.7 |           3.2 |            1.3 |           0.2 | setosa    | setosa         |
+|  3 |            4.6 |           3.1 |            1.5 |           0.2 | setosa    | setosa         |
+|  4 |            5   |           3.6 |            1.4 |           0.2 | setosa    | setosa         |
+|  5 |            5.4 |           3.9 |            1.7 |           0.4 | setosa    | setosa         |
+|  6 |            4.6 |           3.4 |            1.4 |           0.3 | setosa    | setosa         |
+|  7 |            5   |           3.4 |            1.5 |           0.2 | setosa    | setosa         |
+|  8 |            4.4 |           2.9 |            1.4 |           0.2 | setosa    | setosa         |
+|  9 |            4.9 |           3.1 |            1.5 |           0.1 | setosa    | setosa         |
 

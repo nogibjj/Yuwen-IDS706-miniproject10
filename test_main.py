@@ -41,7 +41,7 @@ def test_describe(spark):
 def test_query(spark):
     df = load_data(spark)
     result = query(
-        spark, df, "SELECT * FROM DailyShowGuests WHERE YEAR = 1999", "DailyShowGuests"
+        spark, df, "SELECT * FROM iris WHERE sepal_length > 3", "iris"
     )
     assert result is None
 

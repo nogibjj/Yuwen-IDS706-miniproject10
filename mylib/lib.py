@@ -9,9 +9,8 @@ from pyspark.sql.functions import when, col
 from pyspark.sql.types import (
      StructType, 
      StructField, 
-     IntegerType, 
-     StringType, 
-     DateType
+     DoubleType, 
+     StringType
 )
 
 LOG_FILE = "pyspark_output.md"
@@ -39,10 +38,8 @@ def end_spark(spark):
     return "stopped spark session"
 
 def extract(
-    url="""
-   https://github.com/fivethirtyeight/data/blob/master/daily-show-guests/daily_show_guests.csv?raw=true 
-    """,
-    file_path="data/serve_times.csv",
+    url="https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv",
+    file_path="data/iris.csv",
     directory="data",
 ):
     """Extract a url to a file path"""
@@ -55,15 +52,15 @@ def extract(
 
     return file_path
 
-def load_data(spark, data="data/serve_times.csv"):
+def load_data(spark, data="data/iris.csv"):
     """load data"""
     # data preprocessing by setting schema
     schema = StructType([
-        StructField("YEAR", IntegerType(), True),
-        StructField("GoogleKnowlege_Occupation", StringType(), True),
-        StructField("Show", DateType(), True),
-        StructField("Group", StringType(), True),
-        StructField("Raw_Guest_List", StringType(), True)
+        StructField("sepal_length", DoubleType(), True),
+        StructField("sepal_width", DoubleType(), True),
+        StructField("petal_length", DoubleType(), True),
+        StructField("petal_width", DoubleType(), True),
+        StructField("species", StringType(), True)
     ])
 
     df = spark.read.option("header", "true").schema(schema).csv(data)
@@ -90,15 +87,13 @@ def describe(df):
 def example_transform(df):
     """does an example transformation on a predefiend dataset"""
     conditions = [
-        (col("GoogleKnowlege_Occupation") == "actor")
-          | (col("GoogleKnowlege_Occupation") == "actress"),
-        (col("GoogleKnowlege_Occupation") == "comedian") 
-        | (col("GoogleKnowlege_Occupation") == "comic"),
+        (col("species") == "setosa"),
+        (col("species") == "versicolor"),
     ]
 
-    categories = ["Acting", "Comedy"]
+    categories = ["setosa", "versicolor"]
 
-    df = df.withColumn("Occupation_Category", when(
+    df = df.withColumn("species_bool", when(
         conditions[0], categories[0]
         ).when(conditions[1], categories[1]).otherwise("Other"))
 

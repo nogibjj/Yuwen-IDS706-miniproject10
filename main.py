@@ -17,7 +17,7 @@ def main():
     # extract data
     extract()
     # start spark session
-    spark = start_spark("DailyShowGuests")
+    spark = start_spark("IrisTable")
     # load data into dataframe
     df = load_data(spark)
     # example metrics
@@ -26,8 +26,8 @@ def main():
     query(
         spark,
         df,
-        "SELECT YEAR, COUNT(*) AS guest_count FROM guests GROUP BY YEAR ORDER BY YEAR",
-        "guests",
+        "SELECT COUNT(*) AS flower_count FROM iris GROUP BY species ORDER BY species",
+        "iris",
     )
     # example transform
     example_transform(df)
