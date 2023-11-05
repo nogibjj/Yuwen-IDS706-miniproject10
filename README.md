@@ -1,6 +1,6 @@
 ### IDS-706 Miniproject# 10 by Yuwen Cai
 
-[![cicd](https://github.com/Candice1121/Yuwen-IDS706-miniproject10/actions/workflows/cicd.yml/badge.svg)](https://github.com/Candice1121/Yuwen-IDS706-miniproject10/actions/workflows/cicd.yml)
+[![cicd](https://github.com/nogibjj/Yuwen-IDS706-miniproject10/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Yuwen-IDS706-miniproject10/actions/workflows/cicd.yml)
 
 ---
 **Dataset Source**
